@@ -73,9 +73,6 @@ dependencies {
     implementation ("io.reactivex.rxjava2:rxandroid:2.1.1")
     // RxJava support for Room
     implementation ("androidx.room:room-rxjava2:2.4.1")
-    //Google maps
-    implementation ("com.google.android.gms:play-services-maps:17.0.1")
-
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
