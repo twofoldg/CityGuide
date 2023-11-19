@@ -10,7 +10,7 @@
 
 ## Overview
 
-CityGuide is an Android application designed to guide users about different city locations. Users can add city details including name, country, a brief description, population, and geographic coordinates (latitude and longitude). The app utilizes Google Maps API to display geographical locations of the cities.
+CityGuide is an Android application designed to guide users about different city locations. Users can add city details including name, country, a brief description, population, and geographic coordinates (latitude and longitude). The app utilizes Google Maps API to display the geographical locations of the cities.
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@ CityGuide is an Android application designed to guide users about different city
 - SQLite: Used for local data storage in the app.
 - Room Persistence Library: An abstraction layer provided by Google on top of SQLite to ease database operations.
 - Google Maps API: Implemented for displaying geographic locations based on latitude and longitude coordinates.
-- Android Geocoder: Handles geocoding and reverse geocoding. Geocoding converts an address (city name and country in this app) into latitude and longitude which is used for plotting location on Google Maps.
+- Android Geocoder: Handles geocoding and reverse geocoding. Geocoding converts an address (city name and country in this app) into latitude and longitude which is used for plotting locations on Google Maps.
 
 ## Primary Features
 
@@ -35,6 +35,5 @@ CityGuide is an Android application designed to guide users about different city
 
 ## Future Improvements
 
-1. **Handle Network Operations on a Background Thread:** Network operations like the use of `Geocoder.getFromLocationName()` for geocoding should be handled in a background thread to improve app responsiveness and prevent ANR (Application Not Responding) errors. Modern solutions such as Kotlin Coroutines or RxJava are recommended.
-2. **Enhance the App with More Features:** The application can be improved by the addition of more features like enabling search functionality or providing directions. This makes interaction with the map much richer.
-3. **Improving UI/UX:** The current user interface is basic and functional. It can be improved both aesthetically and functionally (UX and UI enhancements) to make it more visually appealing and easier to interact with.
+1. **Enhance the App with More Features:** The application can be improved by the addition of more features like enabling search functionality or providing directions. This makes interaction with the map much richer.
+2. **Improving UI/UX:** The current user interface is basic and functional. It can be improved both aesthetically and functionally (UX and UI enhancements) to make it more visually appealing and easier to interact with.
