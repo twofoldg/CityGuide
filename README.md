@@ -1,5 +1,7 @@
 # CityGuide Android Application
 
+## N.B: IN ORDER TO USE GOOGLE MAPS YOU HAVE TO ADD YOUR OWN GOOGLE API KEY
+
 ## Table of Contents
 
 - [Overview](#overview)
